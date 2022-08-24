@@ -1,1 +1,1 @@
-# Bride-And-You
+# BrideAndYou
