@@ -1,8 +1,140 @@
 * {
-    
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans KR', sans-serif;
+    box-sizing: border-box;
 }
 
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    height: 90px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+}
+
+header img {
+    height: 40px;
+    /* margin-top: 25px; */
+    outline: 1px solid red;
+}
+
+.m-menu {
+    display: flex;
+    padding: 10px;
+}
+
+.m-menu li {
+    padding: 40px;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.icon .bi {
+    font-size: 25px;
+    margin: 30px;
+}
+
+
+.slider {
+    margin: 0 auto;
+    height: 800px;
+    overflow: hidden;
+}
+
+.slider .sliders img {
+    display: block;
+    width: 100%;
+}
+
+.sliders {
+    width: calc(1920px * 4);
+    transform: translateX(0);
+    display: flex;
+    transition: 0.5s;
+}
+
+h1 {
+    padding: 100px 0 50px;
+    text-align: center;
+}
+
+.container {
+    padding: 0 50px;
+}
+
+.best {
+    display: flex;
+    justify-content: space-between;
+}
+
+.best .col {
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    flex: 1;
+}
+
+.best .col .shop {
+    font-size: 16px;
+    color: #666;
+}
+
+/* .best .col .name {
+    margin: 10px;
+} */
+
+.best .col .cost {
+    text-decoration-line: line-through;
+}
+
+.best .col .sale {
+    color: #FF4800;
+}
+
+.brand {
+    display: flex;
+    justify-content: space-between;
+}
+
+.brand .col {
+    text-align: center;
+    flex: 1;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.brand .col h3 {
+    font-size: 32px;
+}
+
+.brand .col p {
+    font-size: 20px;
+}
+
+.brand .col a {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
 footer {
+    display: flex;
+    margin-top: 200px;
     background: #F8F5F0;
     border-top: 3px solid #C5B9AB;
 }
