@@ -27,6 +27,7 @@ $(function () {
         num++;
         if(num > 3) { num = 0 }
         changeSlider(num);
-    }, 3000)
+    }, 5000)
 
+    
 }); // $

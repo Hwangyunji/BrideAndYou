@@ -24,9 +24,9 @@ header {
 }
 
 header img {
-    height: 40px;
+    height: 25px;
     /* margin-top: 25px; */
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
 }
 
 .m-menu {
@@ -42,7 +42,12 @@ header img {
 
 .icon .bi {
     font-size: 25px;
-    margin: 30px;
+    margin: 10px;
+    /* outline: 1px solid red; */
+}
+
+.icon .bi:first-child {
+    font-size: 30px;
 }
 
 
@@ -61,7 +66,7 @@ header img {
     width: calc(1920px * 4);
     transform: translateX(0);
     display: flex;
-    transition: 0.5s;
+    transition: 1s;
 }
 
 h1 {
@@ -88,12 +93,12 @@ h1 {
 .best .col .shop {
     font-size: 16px;
     color: #666;
+    padding-top: 20px;
 }
-
-/* .best .col .name {
-    margin: 10px;
-} */
-
+.price {
+    display: flex;
+    justify-content: space-evenly;
+}
 .best .col .cost {
     text-decoration-line: line-through;
 }
@@ -101,6 +106,15 @@ h1 {
 .best .col .sale {
     color: #FF4800;
 }
+
+
+
+.special img {
+    width: 100%;
+}
+
+
+
 
 .brand {
     display: flex;
@@ -110,22 +124,40 @@ h1 {
 .brand .col {
     text-align: center;
     flex: 1;
-    font-weight: 400;
-    font-size: 16px;
 }
 
-.brand .col h3 {
+.brand .col h2 {
+    font-weight: 400;
     font-size: 32px;
+    padding: 30px 0 15px;
 }
 
 .brand .col p {
+    font-weight: 400;
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+
+.brand .col .now {
+    border-bottom: 1px solid #000;
+}
+
+.up {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 135px;
+    color: #666;
+}
+
+.up .bi {
+    font-size: 70px;
+}
+
+.up p {
+    font-weight: 500;
     font-size: 20px;
 }
-
-.brand .col a {
-    text-decoration: underline;
-}
-
 
 
 
@@ -134,7 +166,56 @@ h1 {
 
 footer {
     display: flex;
-    margin-top: 200px;
+    margin-top: 50px;
+    padding: 100px 50px 60px;
+    justify-content: space-between;
     background: #F8F5F0;
     border-top: 3px solid #C5B9AB;
+    color: #666;
+}
+
+footer a {
+    color: #666;
+}
+
+.copy1, footer h4 {
+    padding-bottom: 20px;
+    font-size: 18px;
+}
+
+.copy1 span {
+    font-weight: 700;
+}
+
+.copy2 {
+    padding-bottom: 20px;
+}
+
+footer p {
+    line-height: 32px;
+}
+
+.showroom p a {
+    font-weight: 500;
+    text-decoration-line: underline;
+}
+
+.contact .c {
+    display: flex;
+}
+
+.c p:last-child, .s p:last-child {
+    padding-left: 10px;
+}
+
+.sns .s {
+    display: flex;
+}
+.sns .s img {
+    width: 20px;
+}
+
+.sns .s p:first-child {
+    padding-top: 6px;
+    /* outline: 1px solid red; */
 }
