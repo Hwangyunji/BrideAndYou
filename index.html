@@ -6,10 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bride And You</title>
+    <link rel="shortcut icon" href="./images/favicon.ico" />
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="./js/main.js"></script>
 </head>
@@ -37,10 +40,18 @@
         <div class="main-visual">
             <div class="slider">
                 <div class="sliders">
-                    <img src="./images/main1.jpg" alt="main1">
-                    <img src="./images/main2.jpg" alt="main2">
-                    <img src="./images/main3.jpg" alt="main3">
-                    <img src="./images/main4.jpg" alt="main4">
+                    <div class="slideImg">
+                        <img src="./images/main1.jpg" alt="main1">
+                    </div>
+                    <div class="slideImg">
+                        <img src="./images/main2.jpg" alt="main2">
+                    </div>
+                    <div class="slideImg">
+                        <img src="./images/main3.jpg" alt="main3">
+                    </div>
+                    <div class="slideImg">
+                        <img src="./images/main4.jpg" alt="main4">
+                    </div>
                 </div>
             </div>
         </div>
@@ -54,7 +65,7 @@
                         <p class="shop">BAU by Bride And You</p><br>
                         <p class="name">ODETTE Square neck semi mermaid short sleeve tweed dress (Black)</p><br>
                         <p class="price">
-                            <span class="cost">348,000원</span>
+                            <span class="cost">348,000원</span>&emsp;
                             <span class="sale">295,800원</span>
                         </p>
                     </a>
@@ -65,8 +76,8 @@
                         <p class="shop">BAU by Bride And You</p><br>
                         <p class="name">[손예진, 임수향 착용]KINSLEY Volume sleeve wrap detail dress (Cream dot)</p><br>
                         <p class="price">
-                            <p class="cost">398,000원</p>
-                            <p class="sale">278,600원</p>
+                            <span class="cost">398,000원</span>&emsp;
+                            <span class="sale">278,600원</span>
                         </p>
                     </a>
                 </div>
@@ -76,8 +87,8 @@
                         <p class="shop">BAU by Bride And You</p><br>
                         <p class="name">DILLAILA Layered collar lace flare dress (Yellow)</p><br>
                         <p class="price">
-                            <p class="cost">458,000원</p>
-                            <p class="sale">320,600원</p>
+                            <span class="cost">458,000원</span>&emsp;
+                            <span class="sale">320,600원</span>
                         </p>
                     </a>
                 </div>
@@ -87,8 +98,8 @@
                         <p class="shop">BAU by Bride And You</p><br>
                         <p class="name">BETTY Shoulder pad sleeveless A-line dress (Black)</p><br>
                         <p class="price">
-                            <p class="cost">288,000원</p>
-                            <p class="sale">201,600원</p>
+                            <span class="cost">288,000원</span>&emsp;
+                            <span class="sale">201,600원</span>
                         </p>
                     </a>
                 </div>
@@ -98,18 +109,46 @@
                         <p class="shop">BAU by Bride And You</p><br>
                         <p class="name">ASHLEY Wide collar flared dress (Pale mint)</p><br>
                         <p class="price">
-                            <p class="cost">398,000원</p>
-                            <p class="sale">298,500원</p>
-                            </p>
+                            <span class="cost">398,000원</span>&emsp;
+                            <span class="sale">298,500원</span>
+                        </p>
                     </a>
                 </div>
             </div>
         </div>
 
-        
-        <h1>SPECIAL</h1>
-        <div class="special">
-            <img src="./images/special1.png" alt="스페셜">
+        <div class="container collection">
+            <h1>COLLECTION</h1>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="./images/collection1.jpg" alt="SUMMER COUPLE LOO">
+                        <p class="s1">SUMMER COUPLE LOOK</p>
+                        <p class="s2">청량한 여름날, BAU가 선보이는 커플룩</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./images/collection2.jpg" alt="WEDDING GUEST LOOK">
+                        <p class="s1">WEDDING GUEST LOOK</p>
+                        <p class="s2">BAU의 특별한 제안, 로맨틱한 웨딩 게스트룩</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./images/collection3.jpg" alt="22 SUMMER 1st COLLECTION">
+                        <p class="s1">22 SUMMER 1st COLLECTION</p>
+                        <p class="s2">배우 손예진과 함께한 특별한 나의 아웃핏</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./images/collection4.jpg" alt="22 SUMMER 2nd COLLECTION">
+                        <p class="s1">22 SUMMER 2nd COLLECTION</p>
+                        <p class="s2">소중한 날을 위한 특별한 썸머 아웃핏</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./images/collection5.jpg" alt="BRIDAL COLLECTION">
+                        <p class="s1">BRIDAL COLLECTION</p>
+                        <p class="s2">BAU가 새롭게 선보이는 레디투웨어 드레스라인</p>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
         </div>
 
         <div class="container">
@@ -143,9 +182,9 @@
         </div>
 
         <div>
-            <a href="#" class="up">
-            <i class="bi bi-chevron-up"></i>
-            <p>BACK TO TOP</p>
+            <a href="#" class="gotop">
+                <i class="bi bi-chevron-up"></i>
+                <p>BACK TO TOP</p>
             </a>
         </div>
     </main>
